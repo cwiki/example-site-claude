@@ -31,12 +31,31 @@
             margin-top: 1rem;
             font-size: 1.1rem;
         }
+        .languages {
+            margin-top: 2rem;
+        }
+        .greeting {
+            margin: 0.5rem 0;
+            font-size: 1.3rem;
+            color: #444;
+        }
+        .lang-label {
+            font-weight: bold;
+            color: #667eea;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Hello, World!</h1>
-        <p>Welcome to your simple website</p>
+        <p>Welcome to your multilingual website</p>
+        <div class="languages">
+            <div class="greeting"><span class="lang-label">English:</span> Hello, World!</div>
+            <div class="greeting"><span class="lang-label">Spanish:</span> ¡Hola, Mundo!</div>
+            <div class="greeting"><span class="lang-label">French:</span> Bonjour, le Monde!</div>
+            <div class="greeting"><span class="lang-label">German:</span> Hallo, Welt!</div>
+            <div class="greeting"><span class="lang-label">Japanese:</span> こんにちは、世界！</div>
+        </div>
     </div>
 </body>
 </html>
